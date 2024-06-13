@@ -9,11 +9,11 @@
   "test_vocab": {
     "length": 7163,
     "tag2id_length": 7,
-    "Spongebob": -2
+    "Spongebob": 1
   },
   "test_count_oov": {
-    "dev_oov": 3942,
-    "test_oov": 8242
+    "dev_oov": 638,
+    "test_oov": 1368
   },
   "test_prepare_data_loader": {
     "lengths": [
@@ -23,11 +23,11 @@
     ]
   },
   "test_NERNet": {
-    "f1": 0.9289381407379826,
+    "f1": 0.9267501841866544,
     "f1_wo_o": 0.0
   },
   "test_glove": {
-    "f1": 0.9090420619039128,
+    "f1": 0.9146453995208679,
     "f1_wo_o": 0.0
   }
 }
